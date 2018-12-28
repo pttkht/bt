@@ -11,6 +11,7 @@ header{
     height: 80px;
     left: 100px
 }
+/*header */
 section{
     position: relative;
     
@@ -27,6 +28,15 @@ section{
     padding-left: 10px;;
     padding-top: 30px
 }
+input[type=button]{
+    border: none;
+    background-color:  #4CAF50;
+    color: white;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+/*thông tin cá nhân*/
 .kttt{
     background-color: white;
     
@@ -51,6 +61,8 @@ section{
 .kieuphong{
     border-top: 1px solid #f2f2f2
 }
+/* form thông tin phòng*/ 
+
 .csthanhtoan{
     background-color: white;
     
@@ -58,6 +70,7 @@ section{
     width: 310px;
     margin: 20px
 }
+/* chính sách*/
 .ctgia{
     background-color: white;
     
@@ -70,11 +83,10 @@ section{
 .ctgia div{
     border-bottom: 1px solid #f2f2f2
 }
-input[type=submit]{
-    border: none;
-    background-color:  #4CAF50;
-    color: white;
-    width: 100px;
-    height: 50px;
-    cursor: pointer;
+#giathue, #tongtien, .songaydat{
+    color: coral;
+    float: right;
+    padding-right: 10px;
+    font-size: 20px
 }
+/*hiện giá*/
